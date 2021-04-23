@@ -102,4 +102,7 @@ theme: ayer
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ""
+  type: git
+  message: update
+  repo: git@129.211.42.161:/home/git/blog.git
+  branch: master
